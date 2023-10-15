@@ -1,5 +1,4 @@
 .entrada{
-    margin-top: 0px;
     color: rgba(253, 252, 248, 0.979); 
     background-color: cadetblue;
     height: 250px;
@@ -23,9 +22,13 @@ h2{
 h3{
     color: gold;
 }
-.imagen{
-
+.ImagenJuego{
+    width: 100%;
 }
-.juegos{
-    margin: auto;
-}
+.juego{
+    margin: 15px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    width: 26%;
+} 
