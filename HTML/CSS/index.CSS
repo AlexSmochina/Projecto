@@ -20,15 +20,88 @@ h2{
    color: rgb(8, 162, 233); 
 }
 h3{
-    color: gold;
+    color: goldenrod;
+    margin: 5px;
+}
+p{
+    margin: 5px;
 }
 .ImagenJuego{
     width: 100%;
 }
+.juegos{
+    display: flex;
+    order: 3;
+    flex-wrap: wrap;
+}
 .juego{
-    margin: 15px;
+    margin: 19px;
+    border-width: 2px;
+    border-color: goldenrod;
+    border-style: dotted;
+    order: 3;
+    width: 31%;
+    height: 450px;
+
+} 
+.aside{
+    display: flex;
+    flex-wrap: wrap;
+}
+.trucos{
+    background-color: lightblue;
     border-width: 1px;
     border-color: black;
     border-style: solid;
-    width: 26%;
-} 
+    width: 25%;
+}
+.h3Trucos{
+    justify-content: center;
+    vertical-align: middle; 
+    display: flex;
+}
+.pTrucos{
+    justify-content: center;
+    vertical-align: middle; 
+    display: flex; 
+}
+.h2Trucos{
+    justify-content: center;
+    vertical-align: middle; 
+    display: flex;
+}
+.CuadroNoticias{
+    margin: 12px;
+    width: 73%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.TituloNoticias{
+    margin: auto;
+    justify-content: center;
+    vertical-align: middle; 
+    text-align: center;
+    display: flex;
+    width: 70%;
+}
+.ImagenNoticias{
+    width: 100%;
+}
+.noticia{
+    margin: auto;
+    margin-bottom: 15px;
+    border-width: 2px;
+    border-color: darkcyan;
+    border-style: solid;
+    justify-content: center;
+    vertical-align: middle; 
+    width: 45%;
+}
+.FechaNoticias{
+    border-bottom: 3px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: gold;
+    border-style: solid;
+}
