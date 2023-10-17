@@ -16,8 +16,16 @@
     vertical-align: middle; 
     display: flex;
 }
+.textMenu{
+    color: black;
+    font-weight: bold;
+    margin: 20px;
+    text-decoration: none;
+    
+}
 h2{
    color: rgb(8, 162, 233); 
+   margin-bottom: -5px;
 }
 h3{
     color: goldenrod;
@@ -42,17 +50,24 @@ p{
     order: 3;
     width: 31%;
     height: 450px;
-
+    position: relative;
 } 
+.masInfo{
+    position: absolute;
+    background-color: goldenrod;
+    display: flex;
+    margin-left: 87%;
+    bottom: 10px;
+}
 .aside{
     display: flex;
     flex-wrap: wrap;
 }
 .trucos{
     background-color: lightblue;
-    border-width: 1px;
+    border-width: 2px;
     border-color: black;
-    border-style: solid;
+    border-style: dotted;
     width: 25%;
 }
 .h3Trucos{
@@ -84,8 +99,13 @@ p{
     display: flex;
     width: 70%;
 }
+.contenedor{
+    position: relative;
+}
 .ImagenNoticias{
     width: 100%;
+    position: relative;
+    display: flex;
 }
 .noticia{
     margin: auto;
@@ -97,6 +117,24 @@ p{
     vertical-align: middle; 
     width: 45%;
 }
+.h3Noticias{
+    justify-content: center;
+    vertical-align: middle; 
+    text-align: center;
+}
+.pNoticias{
+    justify-content: center;
+    vertical-align: middle; 
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.leerMes{
+    position: absolute;
+    background-color: goldenrod;
+    display: flex;
+    margin-left: 87%;
+    top: 10px;
+}
 .FechaNoticias{
     border-bottom: 3px;
     border-top: 0px;
@@ -104,4 +142,38 @@ p{
     border-right: 0px;
     border-color: gold;
     border-style: solid;
+}
+.ranking{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ImagenRanking{
+    border-radius: 50%;
+    width: 30%;
+    justify-content: center;
+    vertical-align: middle;
+    border: goldenrod 2px solid;
+    position: relative;
+}
+.h2Ranking{
+    justify-content: center;
+    vertical-align: middle; 
+    text-align: center;
+    display: flex;
+    width: 100%;
+}
+.ranking_puntuacion{
+    justify-content: center;
+    vertical-align: middle;
+    display: flex;
+    margin: auto;
+}
+.okk{
+    justify-content: center;
+    vertical-align: middle; 
+    text-align: center;
+}
+.redes{
+    display: flex;
+    background-color: gray;
 }
