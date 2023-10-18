@@ -1,0 +1,67 @@
+.entrada{
+    color: rgba(253, 252, 248, 0.979); 
+    background-color: cadetblue;
+    height: 220px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}  
+.ImagenEntrada{
+    height: 150px;
+}
+.menu{
+    background-color: goldenrod;
+    justify-content: center;
+    vertical-align: middle; 
+    display: flex;
+}
+.textMenu{
+    color: black;
+    font-weight: bold;
+    margin: 20px;
+    text-decoration: none;
+    
+}
+h2{
+   color: rgb(8, 162, 233); 
+   margin-bottom: -5px;
+}
+h3{
+    color: goldenrod;
+    margin: 5px;
+}
+p{
+    margin: 5px;
+}
+.ImagenJuego{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.juegos{
+    display: flex;
+    order: 3;
+    flex-wrap: wrap;
+}
+.juego{
+    margin: 19px;
+    border-width: 2px;
+    border-color: goldenrod;
+    border-style: dotted;
+    order: 3;
+    width: 31%;
+    height: 450px;
+    position: relative;
+    border-radius: 10px;
+} 
+.masInfo{
+    position: absolute;
+    background-color: goldenrod;
+    display: flex;
+    margin-left: 87%;
+    bottom: 10px;
+}
+.textMasInfo{
+    text-decoration: none;
+    margin: 5px;
+}
