@@ -17,6 +17,9 @@
     display: flex;
     position: sticky;
 }
+.main{
+    position: relative;
+}
 .textMenu{
     color: black;
     font-weight: bold;
@@ -188,7 +191,7 @@ p{
     display: flex;
     margin: auto;
 }
-.okk{
+.rankingInformacion{
     justify-content: center;
     vertical-align: middle; 
     text-align: center;
