@@ -11,6 +11,8 @@
     margin-bottom: -1px;
 } 
 .menu{
+    top: 0px;
+    z-index: 1;
     background-color: goldenrod;
     justify-content: center;
     vertical-align: middle; 
