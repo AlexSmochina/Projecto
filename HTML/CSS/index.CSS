@@ -57,7 +57,7 @@ p{
     border-style: dotted;
     order: 3;
     width: 31%;
-    height: 450px;
+    height: 500px;
     position: relative;
     border-radius: 10px;
 } 
@@ -134,6 +134,7 @@ p{
     justify-content: center;
     vertical-align: middle; 
     width: 45%;
+    height: 65%;
     border-radius: 10px;
 }
 .h3Noticias{

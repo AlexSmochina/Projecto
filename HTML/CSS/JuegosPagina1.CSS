@@ -41,26 +41,23 @@ p{
     margin: 5px;
 }
 .ImagenJuego{
-    width: 35%;
+    width: 100%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    justify-content: center;
-    text-align: center;
-    vertical-align: middle;
 }
 .juegos{
     display: flex;
+    order: 3;
     flex-wrap: wrap;
-    border: 1px solid black;
-    width: 100%;
 }
 .juego{
     margin: 19px;
     border-width: 2px;
     border-color: goldenrod;
     border-style: dotted;
-    width: 100%;
-    height: 300px;
+    order: 3;
+    width: 31%;
+    height: 620px;
     position: relative;
     border-radius: 10px;
 } 
@@ -75,12 +72,30 @@ p{
     text-decoration: none;
     margin: 5px;
 }
-.h3Noticias{
-    justify-content: center;
-    vertical-align: middle; 
+.paginacion{
+    margin: 20px 0;
+}
+.paginacion ul{
+    list-style: none;
     text-align: center;
 }
-
+.paginacion ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.paginacion ul li a{
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    background-color: hwb(204 0% 44%);
+    text-decoration: none;
+}
+.paginacion ul li a:hover{
+    background-color: #059df5;
+}
+.paginacion ul li .active{
+    background-color: #059df5;
+}
 .footer{
     background-color: gray;
     display: flex;
