@@ -19,6 +19,9 @@
     display: flex;
     position: sticky;
 }
+.textMenu :hover{
+    background-color: darkgrey;
+}
 .main{
     position: relative;
 }

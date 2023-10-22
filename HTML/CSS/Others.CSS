@@ -1,0 +1,140 @@
+.entrada{
+    color: rgba(253, 252, 248, 0.979); 
+    background-color: cadetblue;
+    height: 220px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+.ImagenEntrada{
+    height: 150px;
+    margin-bottom: -1px;
+} 
+.menu{
+    top: 0px;
+    z-index: 1;
+    background-color: goldenrod;
+    justify-content: center;
+    vertical-align: middle; 
+    display: flex;
+    position: sticky;
+}
+.textMenu :hover{
+    background-color: darkgrey;
+}
+.main{
+    position: relative;
+}
+.textMenu{
+    color: black;
+    font-weight: bold;
+    margin: 20px;
+    text-decoration: none;
+    
+}
+h2{
+   color: rgb(8, 162, 233); 
+   margin-bottom: -5px;
+}
+h3{
+    color: goldenrod;
+    margin: 5px;
+}
+h4{
+    margin: 5px;
+}
+p{
+    margin: 5px;
+}
+.ImagenJuego{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.juegos{
+    display: flex;
+    order: 3;
+    flex-wrap: wrap;
+    height: 900px;
+}
+.juego{
+    margin: 19px;
+    width: 31%;
+    height: 900px;
+    position: relative;
+    border-radius: 10px;
+} 
+.masInfo{
+    position: absolute;
+    background-color: goldenrod;
+    display: flex;
+    margin-left: 87%;
+    bottom: 10px;
+}
+.textMasInfo{
+    text-decoration: none;
+    margin: 5px;
+}
+.footer{
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    height: 75px;
+}
+.footer > *{
+    width: 33%;
+}
+.redes{
+    display: flex;
+}
+.direccion{
+    text-align: right;
+    margin-right: 0px;
+}
+.copyright{
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+.copyright p{
+    position: absolute;
+    bottom: 10px;
+    margin: auto;
+    text-align: center;
+    display: inline;
+    justify-content: center;
+}
+.ImagenJuego{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.juegos{
+    display: flex;
+    order: 3;
+    flex-wrap: wrap;
+    height: 950px;
+}
+.juego{
+    margin: 19px;
+    border-width: 2px;
+    border-color: goldenrod;
+    border-style: dotted;
+    order: 3;
+    width: 31%;
+    height: 900px;
+    position: relative;
+    border-radius: 10px;
+} 
+.masInfo{
+    position: absolute;
+    background-color: goldenrod;
+    display: flex;
+    margin-left: 87%;
+    bottom: 10px;
+}
+.textMasInfo{
+    text-decoration: none;
+    margin: 5px;
+}
